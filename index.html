@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>카드뉴스</title>
+	<style type="text/css">
+
+	@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+		html {
+     			 font-family: 'Pretendard', sans-serif;
+      			 font-weight: 400; 
+      			 line-height: 1.6;
+      			 word-break: keep-all;
+    }
+   .font{font-size: 5rem;}
+		body,h1, h2, p, ol, ul{margin: 0; padding: 0}
+		.wrap {width: 1000px; margin: auto;}
+		body{}
+		header,footer{padding-bottom: 200px;padding-top: 200px;}
+		footer{padding-bottom: 100px;}
+		section{padding-top: 100px; padding-bottom: 100px;
+    }
+		h1{
+			font-family: 'Pretendard', sans-serif;
+      		font-weight: 900; 
+      		font-size:3rem;
+      		margin-top:100px;
+      		color: white;}
+		h2{font-family: 'Pretendard', sans-serif;
+      font-weight: 700; font-weight: 700; font-size:2rem; padding-top: 20px;padding-bottom: 20px;
+    }
+
+		.smallfont{font-size: 0.7rem ;font-weight:300;}
+
+		.paddingtop{padding-top: 230px}
+		.pt{padding-top:260px }
+		.pr{padding-right: 380px}
+		p{font-size: 1.2rem; padding-top: 0px; padding-bottom:40px;}
+
+		.font{font-size: 5rem;}
+		
+		.left-spacing{padding-left: 50px;}
+		.right-spacing{padding-right: 200px;}
+		.center-spacing{padding-left: 100px; padding-right: 100px; text-align: center;}
+
+		.album{padding-left: 700px}
+		.imgfl{float: left;}
+		.albumfl{float: right;}
+	
+
+		.bg-black{background: black;}
+		.bg-black h2{color: white;}
+		.bg-black p{color: white;}
+		.magenta{background: magenta;}
+		.magenta h2{color: white;}
+		.bg-header{background: url(head.jpg);
+			background-size: cover;
+			background-position:center;
+			background-attachment: scroll;}
+			header {padding: 150px 0px;}
+		.bg-img{background: url(12.jpeg); background-size: cover; background-attachment: fixed;}
+			
+		.bg-gif{
+ 			 background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNvZ2gybHkxaDkxbXJ5NXE2MDgyamRma2V3MXNoc2sydDc1OGYyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Su2QqAfMqUV8MaO0Pf/giphy.gif"); background-position: center; background-size: cover; background-attachment: fixed; background-size: 500px;}
+ 	
+ 		.bg-white h2 p{color: black; opacity: 1;}
+ 		.bg-white{background: white;opacity: 0.8;}
+		.white{color: white;}
+		.gray{color: gray;}
+	    .padding-bottom{padding-bottom: 100px; margin-bottom: 100px;}
+	    .bg-blue{background: blue; opacity: 0.5;}
+	    .bg-blue h2{color: white; opacity: 1;}
+	    .glow {text-shadow: 0px 0px 13px white;}
+	   
+
+img src=그래프.png{padding-right: 200px;}
+	</style>
+</head>
+<body>
+	<nav></nav>
+	<header class="bg-header">
+		<div class="wrap">
+		     <h1 class="left-spacing">K-POP 앨범 판매 1억장,<br>그 뒤에 숨은 환경오염의 진실</h1>
+	    </div>
+	</header>
+	<section>
+		<div class="wrap">
+		    <img src="graph.png" width="800px" class="center-spacing">
+		    <h2 class="right-spacing">음악보다 소유가 더 중요한 시대</h2>
+		    <p class="right-spacing">최근 몇년간 K-POP 음반 판매량은 폭발적으로 증가했습니다.
+            <br>하지만 그만큼 새 앨범이 버려지는 양도 늘어났죠.
+            <br>음악 산업의 성공 뒤에는 
+            ‘듣지 않는 음반’이 산처럼 쌓여 있습니다.</p>
+        </div>
+	</section>
+	<section class=" glow bg-black">
+		<div class="wrap">
+			<h2 class="center-spacing" class="padding-bottom"> 왜 이렇게 많이 살까?</h2>
+       <img src="2.jpg" width="800" class="center-spacing">
+			<p class="center-spacing">앨범에는 랜덤 포토카드와 팬사인회 응모권이 들어 있습니다. <br>원하는 멤버 카드를 얻거나, 사인회에 당첨되려면 여러 장을 살 수밖에 없습니다. <br>‘앨범깡’, ‘팬싸컷’같은 단어가 생겨난 이유입니다.</p>
+      
+	    </div>
+	</section>
+	<section>
+		<div class="wrap">
+			<img src="3.png" width="100%">
+			<h2 class="right-spacing">판매량이 팬심의 기준이 되어버렸다</h2>
+			<p class="right-spacing">초동 판매량은 가수의 성적과 팬덤의 자부심으로 연결됩니다. 시상식, 차트, 홍보가 '얼마나 팔렸는가'로 평가되죠. 결국 음악이 아닌 수량 경쟁이 과잉 생산을 부추기고 있습니다.</p>
+	    </div>
+	</section>
+	<section class="bg-gif">
+	   	<div class="wrap">
+			<img src="5.jpg" width="800px" class="center-spacing">
+			<h2 class="right-spacing bg-white">듣지 않는 앨범, 버려지는 현실</h2>
+			<p class="right-spacing bg-white">한국소비자원 조사 결과, K-POP 팬의 52.7%가 굿즈 수집용으로 앨범을 구매하고, 5.7%만이 CD로 음악을 듣는다고 답했습니다. 응모권을 뺀 앨범은 중고 거래, 기부, 혹은 폐기됩니다.</p>
+	    </div>
+	</section>
+	<section>
+		<div class="wrap">
+			<img src="6.jpg">
+			<h2 class="right-spacing">환경에 남는 흔적</h2>
+			<p class="right-spacing">앨범에는 폴라카보내이트·PVC·코팅지가 사용됩니다. 이 소재들은 재활용이 어렵고, 자연 분해에는 최대 100만년이 걸립니다. 소각 시에는 유독가스가 발생하죠.</p>
+	    </div>
+	</section>
+	<section>
+		<div class="wrap">
+			
+		
+			<img src="8.png" width="500px" class="imgfl"> 
+			<p class="paddingtop gray"><small style="font-size: 1rem; font-weight: 300;">실물 앨범의 구성을 그대로 디지털화한 Weverse 앨범.<br>QR코드를 스캔해 앱에 등록하면 휴대폰에서 음악 감상은 물론,<br>포토북과 포토카드도 즐길 수 있다.</small></p>
+
+			<img src="album.png" width="350px" class="albumfl"> 
+			<p class="pt pr gray" style="text-align: right;" class="pr"><small style="font-size: 1rem; font-weight: 300;">SM 엔터테인먼트의 키노 앨범.<br>전용 앱을 설치하면 휴대폰으로 음악을 감상할 수 있다.<br>NFC칩이 내장된 기기와 포토카드 구성의 제품이다.</small></p>
+
+			<h2 class="right-spacing">환경을 위한 기업의 변화</h2>
+			<p class="right-spacing">이러한 과잉 생산·소비 문제의 인식이 커지면서, 기업과 굿즈 시장 또한 디지털 앨범을 구매하고 포토카드만 실물로 제공하는 등 환경 부담을 줄이면서 팬들의 니즈를 반영해 변화하고 있습니다.</p>
+	    </div>
+	</section>
+	<section class="magenta">
+		<div class="wrap">
+			<img src="9.jpg">
+			<h2 class="center-spacing">팬들도 문제를 인식하고 행동하기 시작했다</h2>
+			<p class="center-spacing">"케이팝 포 플래닛(Kpop4Planet)"과 같은 K-POP 환경 단체가 등장하며 <br> 팬들이 직접 기획사에 친환경 앨범 제작과 지속 가능한 시스템 개선을 요구하고 있습니다.</p>
+	    </div>
+	</section>
+	<section>
+		<div class="wrap">
+			<img src="10.jpg">
+			<h2 class="right-spacing">진짜 문제는 '시스템'</h2>
+			<P class="right-spacing">디지털 앨범이 늘고 있지만, 진짜 바뀌어야 할 건 과잉 구매를 조장하는 시스템입니다. 랜덤 굿즈 증정, 판매량으로 순위를 매기는 구조가 유지된다면 팬들은 여전히 같은 앨범을 수십 장씩 살 수밖에 없습니다.</P>
+        </div>
+	</section>
+	<section class="bg-img">
+		<div class="wrap">
+		    <h2 class="center-spacing white glow">음악 산업의 새로운 경쟁력은 '지속 가능성'입니다. <br>팬들의 열정이 지구를 지키는 힘으로 이어질 때,<br> 비로소 음악 산업의 성장이 시작됩니다.</h2>
+	    </div>
+	</section>
+	<footer>
+		<div class="wrap">
+		    <p class="center-spacing gray">K-POP 앨범 판매에 숨은 환경 오염의 진실&copy;2025. 정연재 모든권리보유.</p>
+	    </div>
+	</footer>
+</body>
+</html>
